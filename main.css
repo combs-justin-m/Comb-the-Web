@@ -1,0 +1,54 @@
+body {
+    font-family: 'Muli', sans-serif;
+    background-color: #456;
+    color: #bcd;
+    font-size: 62.5%;
+    text-align: center;
+}
+
+body, body * {
+  box-sizing: border-box;
+}
+
+main {
+    height: calc(100vh - 50px);
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 6em;
+    text-align: center;
+    margin-top: 0;
+}
+
+form {
+    width: 70%;
+    margin: auto;
+    padding: 0;
+}
+
+input {
+    color: #345;
+    font-size: 2em;
+    width: 100%;
+    display: block;
+    border: 1px solid #def;
+    background-color: #bcd;
+}
+
+button {
+    display: block;
+    background-color: #ada;
+    border: 1px solid #afa;
+    color: #334353;
+    font-size: 3em;
+    width: 100%;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #345;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.5em;
+}
